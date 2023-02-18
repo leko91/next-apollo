@@ -6,7 +6,7 @@
   "module": "./dist/index.es.js",
   "scripts": {
     "build": "rollup -c rollup.config.ts",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "precommit": "lint-staged"
   },
   "lint-staged": {
